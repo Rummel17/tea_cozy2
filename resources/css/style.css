@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+/* extra div not necessary. This is to test centering all content */
+.center.header {
+  width: 1200px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 50px;
+  margin: 0px 0px 0px 0px;
+  display: inline-block;
+}
+
+/* Used width 100 % and display flex to move contents to the right
+for a variation to test centering all content */
+nav {
+  height: 69px;
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+span a {
+  color: seashell;
+  padding: 0px 0px 0px 20px;
+}
+
+/*Main*/
+main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+#about {
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+}
+.banner {
+  width: 1200px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+h2, h4 {
+  color: white;
+  padding: 10px 0px;
+}
+#goods {
+  width: 1000px;
+  height: auto;
+  margin: 50px 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.picture-container.top {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  width: 300px;
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item img {
+  width: 300px;
+  height: 200px;
+}
+.item span {
+  margin: 10px 0px 20px 0px;
+  font-size: 22px;
+  font-weight: 500;
+}
+#location {
+  width: 1200px;
+  height: 500px;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row-adjust {
+  margin-top: 5px;
+  display:flex;
+  justify-content: center;
+}
+.location {
+  width: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+  opacity: 0.75;
+}
+h3, h5, p {
+  padding: 20px 0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+/* to adjust the copyright on the left of the center*/
+#center-copyright{
+  width: 1200px;
+  display: flex;
+}
+
+.copyright {
+  font-size: 13px;
+}
