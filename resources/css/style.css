@@ -1,4 +1,4 @@
-*{
+html, body{
   margin: 0;
   padding: 0;
 }
@@ -21,8 +21,6 @@ header {
   display: flex;
   justify-content: center;
   background-color: black;
-  margin: 0px;
-  padding: 0px;
 }
 /* extra div not necessary. This is to test centering all content */
 .center.header {
@@ -60,9 +58,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px;
-  padding: 0px;
-
 }
 #about {
   width: 1200px;
@@ -140,8 +135,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px;
-  padding: 0px;
 }
 /* to adjust the copyright on the left of the center*/
 #center-copyright{
