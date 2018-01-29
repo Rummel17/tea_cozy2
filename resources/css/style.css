@@ -1,4 +1,4 @@
-*{
+html, body{
   margin: 0;
   padding: 0;
 }
@@ -27,7 +27,6 @@ header {
   width: 1200px;
   height: 69px;
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -36,6 +35,7 @@ img {
   margin: 0px 0px 0px 0px;
   display: inline-block;
 }
+
 /* Used width 100 % and display flex to move contents to the right
 for a variation to test centering all content */
 nav {
@@ -47,30 +47,23 @@ nav {
   align-items: center;
 }
 
-span {
-}
-
 span a {
   color: seashell;
   padding: 0px 0px 0px 20px;
 }
 
 /*Main*/
-
 main {
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-
 }
 #about {
   width: 1200px;
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   display: flex;
-  flex-direction: row;
 }
 .banner {
   width: 1200px;
@@ -102,6 +95,7 @@ h2, h4 {
   margin: 0px 15px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .item img {
   width: 300px;
@@ -109,8 +103,6 @@ h2, h4 {
 }
 .item span {
   margin: 10px 0px 20px 0px;
-  display: block;
-  text-align: center;
   font-size: 22px;
   font-weight: 500;
 }
@@ -144,12 +136,12 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-
+/* to adjust the copyright on the left of the center*/
 #center-copyright{
   width: 1200px;
   display: flex;
 }
 
 .copyright {
-  font-size: 14px;
+  font-size: 13px;
 }
